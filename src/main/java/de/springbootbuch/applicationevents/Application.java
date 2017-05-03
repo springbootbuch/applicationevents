@@ -18,7 +18,7 @@ import org.springframework.boot.context.event.ApplicationStartingEvent;
 public class Application {
 
 	static final Logger LOG = LoggerFactory
-		.getLogger(ContextRefreshedEventListener.class);
+		.getLogger(Application.class);
 	
 	public static void main(String[] args) {
 		final SpringApplicationBuilder builder
